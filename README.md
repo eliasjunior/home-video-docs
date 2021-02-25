@@ -69,14 +69,14 @@ Problably there are many great apps to stream video just like this one but I wan
 
 Here's why:
 * Build something that I enjoy doing so.
-* Apply code good practices on React and Node.
+* Apply good code practices becasuse I want flexibility to change and evolve.
+* Pray with React and Node.
 * I have a bunch of videos on my hard drive and I was curious on how I could build something to access it.
 
 
 ### Built With
 * [React](https://reactjs.org/)
 * [NodeJs](https://nodejs.org/)
-
 
 
 <!-- GETTING STARTED -->
@@ -102,7 +102,7 @@ NodeJs 10 or higher installed on the machine that will run the apps
    ```sh
    git clone https://github.com/eliasjunior/home-video.git
    ```
-3. Install NPM packages, run the command bellow on both projects.
+3. Install NPM packages, run the command bellow on both projects in the root folder.
    ```sh
    npm install
    ```
