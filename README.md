@@ -2,7 +2,7 @@
 
 ## What is it ?
 
-It's react basic app for the UI and a Node.js as a server to play videos as streaming service.
+It's react basic app for the UI and a Node.js as a server to play videos as streaming service in your home network
 
   [Home Video API - NodeJs App](https://github.com/eliasjunior/home-video-api) 
 
