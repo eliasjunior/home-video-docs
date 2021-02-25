@@ -1,4 +1,4 @@
-# home-video-docs
+# Documentation
 
 ## What is it ?
 
