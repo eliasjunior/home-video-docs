@@ -18,8 +18,6 @@
   <p align="center">
     It's web application to play videos, you just need a browser to acccess and everything stays in your home network.
     <br />
-    <a href="https://github.com/eliasjunior/home-video-docs"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="">View Demo</a>
     ·
@@ -59,18 +57,20 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-<a href="https://github.com/eliasjunior/home-video-docs/images/design.png">
-    <img src="images/design.png" alt="Logo" width="550" height="330">
-</a>
+<p align="center">
+    <a href="https://github.com/eliasjunior/home-video-docs/images/design.png">
+        <img src="images/design.png" alt="Logo" width="550" height="330">
+    </a>
+</p>
 
 </br>
 
-Problably There are many great apps to stream video just like this one but I wanted to learn a bit about video streaming,  on the front-end and back-end, it's a basic app where I tried and still trying add some good quality code. Of course the main goal it's to have fun, usually working on my late hours when kids :baby: are  :sleeping: .
+Problably there are many great apps to stream video just like this one but I wanted to learn a bit about video streaming,  on the front-end and back-end.
 
 Here's why:
-* Build something that I enjoy doing it 
-* Little free time and want to build something quick and small but focusing on good practices
+* Build something that I enjoy doing so.
+* Apply code good practices on React and Node.
+* I have a bunch of videos on my hard drive and I was curious on how I could build something to access it.
 
 
 ### Built With
