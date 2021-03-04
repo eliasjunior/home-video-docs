@@ -40,8 +40,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align="center">
-    <a href="https://github.com/eliasjunior/home-video-docs/images/design.png">
-        <img src="images/design.png" alt="Logo" width="550" height="330">
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/design.png">
+        <img src="images/design.png" alt="Logo" width="100%" height="100%">
     </a>
 </p>
 
