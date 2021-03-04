@@ -8,7 +8,7 @@
   <h3 align="center">Home Video</h3>
 
   <p align="center">
-    It's a web application to play videos on a browser, it's easy to install and setup, access the videos on the phone, computer or anything that has a browser.
+    It's a web application to play videos on a browser, it's easy to install and setup, access the videos on the phone, computer or anything else that has a browser.
     <br />
     <br />
   </p>
@@ -52,8 +52,8 @@ Problably there are many great apps to stream video just like this one but I wan
 Here's why:
 * Build something that I enjoy doing so.
 * Apply good code practices because I want flexibility to change and evolve.
-* Pray with React and Node.
-* I have a bunch of videos on my hard drive and I was curious on how I could build something to access it.
+* Play with React and Node.
+* I have a bunch of videos on my hard drive and I was curious to how I could build something to access it.
 
 
 ### Built With
@@ -102,8 +102,6 @@ REACT_APP_SERVER_PROTOCOL=http
    npm install
    ```
 3. More details of the configuration you can find in `src/config.js`
-
-TODO add config sets here!
 
 
 <!-- USAGE EXAMPLES -->
