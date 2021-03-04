@@ -1,11 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -16,14 +8,9 @@
   <h3 align="center">Home Video</h3>
 
   <p align="center">
-    It's web application to play videos, you just need a browser to acccess and everything stays in your home network.
+    It's a web application to play videos on a browser, it's easy to install and setup, access the videos on the phone, computer or anything that has a browser.
     <br />
     <br />
-    <a href="">View Demo</a>
-    ·
-    <a href="">Report Bug</a>
-    ·
-    <a href="">Request Feature</a>
   </p>
 </p>
 
@@ -45,11 +32,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -69,7 +51,7 @@ Problably there are many great apps to stream video just like this one but I wan
 
 Here's why:
 * Build something that I enjoy doing so.
-* Apply good code practices becasuse I want flexibility to change and evolve.
+* Apply good code practices because I want flexibility to change and evolve.
 * Pray with React and Node.
 * I have a bunch of videos on my hard drive and I was curious on how I could build something to access it.
 
@@ -82,9 +64,6 @@ Here's why:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
 Cheap computer as Raspberry PI or any other computer that you might have.
@@ -94,19 +73,37 @@ NodeJs 10 or higher installed on the machine that will run the apps
 
 ### Installation
 
-1. Clone the NodeJs App
+**Node App**
+
+1. Clone the NodeJs App (back-end)
    ```sh
    git clone https://github.com/eliasjunior/home-video-api.git
    ```
-2. Clone the React App
-   ```sh
-   git clone https://github.com/eliasjunior/home-video.git
-   ```
-3. Install NPM packages, run the command bellow on both projects in the root folder.
+2. Edit .env with your configuration
+
+```properties
+REACT_APP_SERVER_HOST=YOUR_MACHINE_IP_ADDRESS
+REACT_APP_SERVER_PROTOCOL=http
+```
+3. Install NPM packages, run the command bellow.
    ```sh
    npm install
    ```
-4. Enter your folders configuration also both projects in `config.js`
+4. More details of the configuration you can find in `src/config.js`   
+
+**React App**
+
+1. Clone the React App (Front-end)
+   ```sh
+   git clone https://github.com/eliasjunior/home-video.git
+   ```
+2. Install NPM packages, run the command bellow on both projects in the root folder.
+   ```sh
+   npm install
+   ```
+3. More details of the configuration you can find in `src/config.js`
+
+TODO add config sets here!
 
 
 <!-- USAGE EXAMPLES -->
@@ -117,12 +114,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
 
 
 <!-- CONTRIBUTING -->
@@ -143,47 +135,3 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
