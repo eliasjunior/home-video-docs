@@ -1,4 +1,4 @@
-<!-- PROJECT LOGO -->
+[![Tests](https://github.com/eliasjunior/home-video/actions/workflows/tests.yml/badge.svg)](https://github.com/eliasjunior/home-video/actions/workflows/tests.yml)
 <br />
 <p align="center">
   <a href="https://github.com/eliasjunior/home-video-api/blob/master/public/movies.png">
@@ -47,7 +47,7 @@
 
 </br>
 
-Problably there are many great apps to stream video just like this one but I wanted to learn a bit about video streaming,  on the front-end and back-end.
+Probably there are many great apps to stream video just like this one but I wanted to learn a bit about video streaming,  on the front-end and back-end.
 
 Here's why:
 * Build something that I enjoy doing so.
@@ -132,4 +132,3 @@ Contributions are what make the open source community such an amazing place to b
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
