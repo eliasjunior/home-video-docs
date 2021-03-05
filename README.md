@@ -73,7 +73,7 @@ NodeJs 10 or higher installed on the machine that will run the apps
 
 ### Installation
 
-**[Node App](https://github.com/eliasjunior/home-video-api)**
+<li><a href="https://github.com/eliasjunior/home-video-api" target="_blank">Node App</a></li>
 
 1. Clone the NodeJs App (back-end)
    ```sh
@@ -91,7 +91,7 @@ REACT_APP_SERVER_PROTOCOL=http
    ```
 4. More details of the configuration you can find in `src/config.js`   
 
-**[React App](https://github.com/eliasjunior/home-video)**
+<li><a href="https://github.com/eliasjunior/home-video" target="_blank">React App</a></li>
 
 1. Clone the React App (Front-end)
    ```sh
