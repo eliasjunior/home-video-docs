@@ -51,7 +51,7 @@ Probably there are many great apps to stream video just like this one but I want
 
 Here's why:
 * Build something that I enjoy doing so.
-* Apply good code practices because I want flexibility to change and evolve.
+* Apply good code practices because I want flexibility to change and evolve the code.
 * Play with React and Node.
 * I have a bunch of videos on my hard drive and I was curious to how I could build something to access it.
 
@@ -73,7 +73,7 @@ NodeJs 10 or higher installed on the machine that will run the apps
 
 ### Installation
 
-**Node App**
+**[Node App](https://github.com/eliasjunior/home-video)**
 
 1. Clone the NodeJs App (back-end)
    ```sh
@@ -91,7 +91,7 @@ REACT_APP_SERVER_PROTOCOL=http
    ```
 4. More details of the configuration you can find in `src/config.js`   
 
-**React App**
+**[React App](https://github.com/eliasjunior/home-video-api)**
 
 1. Clone the React App (Front-end)
    ```sh
