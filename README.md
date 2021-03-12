@@ -47,6 +47,31 @@
 
 </br>
 
+Mobile 
+
+<p>
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/home.png">
+        <img src="images/design.png" alt="Logo" width="100%" height="100%">
+    </a>
+</p>
+<p>
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/list.png">
+        <img src="images/design.png" alt="Logo" width="100%" height="100%">
+    </a>
+</p>
+
+Desktop
+<p>
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop.png">
+        <img src="images/design.png" alt="Logo" width="100%" height="100%">
+    </a>
+</p>
+<p>
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list.png">
+        <img src="images/design.png" alt="Logo" width="100%" height="100%">
+    </a>
+</p>
+
 Probably there are many great apps to stream video just like this one but I wanted to learn a bit about video streaming,  on the front-end and back-end.
 
 Here's why:
