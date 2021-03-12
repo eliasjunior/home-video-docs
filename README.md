@@ -49,26 +49,27 @@
 
 Mobile 
 
-<p>
+<p align="center">
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/home.png">
-        <img src="images/design.png" alt="Logo" width="100%" height="100%">
+        <img src="images/home.png" alt="Logo" width="200px" height="350px">
+    </a>
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/list.png">
+        <img src="images/list.png" alt="Logo" width="200px" height="350px">
     </a>
 </p>
-<p>
-    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/list.png">
-        <img src="images/design.png" alt="Logo" width="100%" height="100%">
+<p align="center">
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/player.png">
+        <img src="images/player.png" alt="Logo" width="736px" height="414px">
     </a>
 </p>
 
 Desktop
-<p>
+<p align="center">
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop.png">
-        <img src="images/design.png" alt="Logo" width="100%" height="100%">
+        <img src="images/desktop.png" alt="Logo" width="600px" height="400px">
     </a>
-</p>
-<p>
-    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list.png">
-        <img src="images/design.png" alt="Logo" width="100%" height="100%">
+     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list.png">
+        <img src="images/desktop-list.png" alt="Logo"  width="600px" height="400px">
     </a>
 </p>
 
