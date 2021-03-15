@@ -75,7 +75,7 @@ Desktop
         <img src="images/desktop-list.png" alt="list"  width="100%" height="100%">
     </a>
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list-search.png">
-        <img src="images/desktop-list-search.png" alt="list" width="100%" height="100%">
+        <img src="images/desktop-search.png" alt="list" width="100%" height="100%">
     </a>
 </p>
 
@@ -83,7 +83,7 @@ Probably there are many great apps to stream video out there, but I wanted to le
 
 Here's what motivated me:
 * Build something that I enjoy doing so.
-* Apply good code practices because I wanted flexibility to change the app and evolve over time as the app grows.
+* Apply good code practices because I wanted flexibility to change and evolve the app over time as the app grows.
 * Play with React and Node.
 * I have a bunch of videos and photos in my hard drive and I was curious to how hard would be to build something to easily access it.
 
@@ -121,18 +121,19 @@ NodeJs 10 or higher installed on the machine that will run the apps
     IMG_FOLDER_FALL_BACK= leave it blank if you don't want the app to read video/images from another folder
     ```
 
-3. More details of the configuration you can find in `src/config.js`   
+3. More details of the configuration you can find in `src/config.js`  
 
-4. Install NPM packages, run the command bellow.
-    ```sh
-    npm install
-    ```
-
-5. The folder structure must follow the structure bellow, images and subtitles at the same folder.
+4. The folder structure must follow the structure bellow, images and subtitles at the same folder.
 
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/folder.png">
             <img src="images/folder.png" alt="Logo"  width="300px" height="200px">
     </a>
+
+
+5. Install NPM packages, run the command bellow.
+    ```sh
+    npm install
+    ```
 
 6. Run app    
  ```sh
@@ -154,7 +155,7 @@ NodeJs 10 or higher installed on the machine that will run the apps
 
 4. Install NPM packages.
     ```sh
-    npm install
+      npm install
     ```
 
 5. Build the App
@@ -185,6 +186,8 @@ CSS
 * No CSS libraries
 * BEM for css standards
 * Mainly for layouts I used Flexbox
+
+<li><a href="https://github.com/eliasjunior/home-video" target="_blank">Server App</a></li>
 
 <!-- LICENSE -->
 ## License
