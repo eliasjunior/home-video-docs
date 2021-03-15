@@ -56,6 +56,9 @@ Mobile
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/list.png">
         <img src="images/list.png" alt="Logo" width="200px" height="350px">
     </a>
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/list-search.png">
+        <img src="images/list-search.png" alt="Logo" width="200px" height="350px">
+    </a>
 </p>
 <p align="center">
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/player.png">
@@ -68,8 +71,11 @@ Desktop
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop.png">
         <img src="images/desktop.png" alt="Logo" width="600px" height="400px">
     </a>
-     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list.png">
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list.png">
         <img src="images/desktop-list.png" alt="Logo"  width="600px" height="400px">
+    </a>
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list-search.png">
+        <img src="images/desktop-list-search.png" alt="Logo"  width="600px" height="400px">
     </a>
 </p>
 
@@ -117,6 +123,12 @@ REACT_APP_SERVER_PROTOCOL=http
    ```
 4. More details of the configuration you can find in `src/config.js`   
 
+5. Folder structure must follow the structure bellow, images and subtitles at the same folder.
+
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/folder.png">
+            <img src="images/folder.png" alt="Logo"  width="300px" height="200px">
+    </a>
+
 <li><a href="https://github.com/eliasjunior/home-video" target="_blank">React App</a></li>
 
 1. Clone the React App (Front-end)
@@ -130,27 +142,17 @@ REACT_APP_SERVER_PROTOCOL=http
 3. More details of the configuration you can find in `src/config.js`
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- Technical -->
+## Technical overview
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<li><a href="https://github.com/eliasjunior/home-video" target="_blank">React App Choices</a></li>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### Frameworks and Libs
 
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+React
+1. Positive personal experience and I found that framework.
+2. It embraces reusability  and testability.
+3. It lets you to use your JavaScript know-how and relying strongly in the language instead of apis on the top of the language
 
 
 
