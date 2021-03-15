@@ -69,13 +69,13 @@ Mobile
 Desktop
 <p align="center">
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop.png">
-        <img src="images/desktop.png" alt="Logo" width="600px" height="400px">
+        <img src="images/desktop.png" alt="Logo" width="650px" height="450px">
     </a>
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list.png">
-        <img src="images/desktop-list.png" alt="Logo"  width="600px" height="400px">
+        <img src="images/desktop-list.png" alt="Logo"  width="650px" height="450px">
     </a>
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list-search.png">
-        <img src="images/desktop-list-search.png" alt="Logo"  width="600px" height="400px">
+        <img src="images/desktop-list-search.png" alt="Logo"  width="650px" height="450px">
     </a>
 </p>
 
@@ -150,9 +150,9 @@ REACT_APP_SERVER_PROTOCOL=http
 ### Frameworks and Libs
 
 React
-1. Positive personal experience and I found that framework.
-2. It embraces reusability  and testability.
-3. It lets you to use your JavaScript know-how and relying strongly in the language instead of apis on the top of the language
+1. Positive personal experience.
+2. Instability
+3. It embraces reusability, testability and Javascript native features instead of adding a api layer.
 
 
 
