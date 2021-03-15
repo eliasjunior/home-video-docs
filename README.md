@@ -8,7 +8,7 @@
   <h3 align="center">Home Video</h3>
 
   <p align="center">
-    It's a web application to play videos on a browser, it's easy to install and setup, access the videos on the phone, computer or anything else, you just need a browser.
+    It's a web application to play videos on a browser, it's easy to install and setup, access the videos in the phone, computer or anything else, you just need a browser.
     <br />
     <br />
   </p>
@@ -69,13 +69,13 @@ Mobile
 Desktop
 <p align="center">
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop.png">
-        <img src="images/desktop.png" alt="Logo" width="650px" height="450px">
+        <img src="images/desktop.png" alt="Logo" width="100%" height="100%">
     </a>
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list.png">
-        <img src="images/desktop-list.png" alt="Logo"  width="650px" height="450px">
+        <img src="images/desktop-list.png" alt="list"  width="100%" height="100%">
     </a>
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list-search.png">
-        <img src="images/desktop-list-search.png" alt="Logo"  width="650px" height="450px">
+        <img src="images/desktop-list-search.png" alt="list" width="100%" height="100%">
     </a>
 </p>
 
@@ -154,7 +154,7 @@ NodeJs 10 or higher installed on the machine that will run the apps
     REACT_APP_SERVER_HOST=YOUR_SERVER_IP_ADDRESS
     ```   
 5. More details of the configuration you can find in `src/config.js`  
-  
+
 6. Run app    
     ```sh
       npm start
