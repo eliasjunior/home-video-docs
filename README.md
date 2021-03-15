@@ -83,9 +83,9 @@ Probably there are many great apps to stream video out there, but I wanted to le
 
 Here's what motivated me:
 * Build something that I enjoy doing so.
-* Apply good code practices because I want flexibility to change and evolve app grows.
+* Apply good code practices because I wanted flexibility to change the app and evolve over time as the app grows.
 * Play with React and Node.
-* I have a bunch of videos and photos on my hard drive and I was curious to how hard would be to build something to access it.
+* I have a bunch of videos and photos in my hard drive and I was curious to how hard would be to build something to easily access it.
 
 
 ### Built With
@@ -111,21 +111,24 @@ NodeJs 10 or higher installed on the machine that will run the apps
     ```sh
     git clone https://github.com/eliasjunior/home-video-api.git
     ```
+
 2. Edit .env with your configuration
 
     ```properties
     SERVER_PROTOCOL=YOUR_MACHINE_IP_ADDRESS
     SERVER_HOST=http
     VIDEO_PATH=Absolute videos path
-    IMG_FOLDER_FALL_BACK= leave it blank if you don't want the app to read video/images from another folder folder
+    IMG_FOLDER_FALL_BACK= leave it blank if you don't want the app to read video/images from another folder
     ```
-3. Install NPM packages, run the command bellow.
+
+3. More details of the configuration you can find in `src/config.js`   
+
+4. Install NPM packages, run the command bellow.
     ```sh
     npm install
     ```
-4. More details of the configuration you can find in `src/config.js`   
 
-5. Folder structure must follow the structure bellow, images and subtitles at the same folder.
+5. The folder structure must follow the structure bellow, images and subtitles at the same folder.
 
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/folder.png">
             <img src="images/folder.png" alt="Logo"  width="300px" height="200px">
@@ -141,38 +144,47 @@ NodeJs 10 or higher installed on the machine that will run the apps
     ```sh
     git clone https://github.com/eliasjunior/home-video.git
     ```
-2. Install NPM packages, run the command bellow on both projects in the root folder.
+
+2. Edit .env with your configuration   
+    ```properties
+    REACT_APP_SERVER_HOST=YOUR_SERVER_IP_ADDRESS
+    ```
+
+3. More details of the configuration you can find in `src/config.js`  
+
+4. Install NPM packages.
     ```sh
     npm install
     ```
-3. Build the App
+
+5. Build the App
     ```sh
       npm run build
     ```
-4. Edit .env with your configuration   
-    ```properties
-    REACT_APP_SERVER_HOST=YOUR_SERVER_IP_ADDRESS
-    ```   
-5. More details of the configuration you can find in `src/config.js`  
 
 6. Run app    
     ```sh
       npm start
     ```
+
 <!-- Technical -->
 ## Technical overview
 
-<li><a href="https://github.com/eliasjunior/home-video" target="_blank">React App Choices</a></li>
+<li><a href="https://github.com/eliasjunior/home-video" target="_blank">React App</a></li>
 
 ### Frameworks and Libs
 
 React
-1. Positive personal experience.
-2. Instability
-3. It embraces reusability, testability and Javascript native features instead of adding a api layer.
 
-No CSS libraries.
+* Positive personal experience.
+* Instability
+* It embraces reusability, testability and Javascript native features instead of adding a api layer.
 
+CSS
+
+* No CSS libraries
+* BEM for css standards
+* Mainly for layouts I used Flexbox
 
 <!-- LICENSE -->
 ## License
