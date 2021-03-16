@@ -115,8 +115,8 @@ NodeJs 10 or higher installed on the machine that will run the apps
 2. Edit .env with your configuration
 
     ```properties
-    SERVER_PROTOCOL=YOUR_MACHINE_IP_ADDRESS
-    SERVER_HOST=http
+    SERVER_HOST=YOUR_MACHINE_IP_ADDRESS
+    SERVER_PROTOCOL=http
     VIDEO_PATH=Absolute videos path
     IMG_FOLDER_FALL_BACK= leave it blank if you don't want the app to read video/images from another folder
     ```
