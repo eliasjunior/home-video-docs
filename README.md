@@ -195,6 +195,10 @@ CSS
 
 <li><a href="https://github.com/eliasjunior/home-video" target="_blank">Server App</a></li>
 
+* Develop something quickly.
+* Javascript experience
+* Full stack javascript
+
 <!-- LICENSE -->
 ## License
 
