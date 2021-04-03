@@ -89,8 +89,8 @@ Here's what motivated me:
 
 
 ### Built With
-* [React](https://reactjs.org/)
-* [NodeJs](https://nodejs.org/)
+* [React](https://reactjs.org/) - [Front-end App](https://github.com/eliasjunior/home-video)
+* [NodeJs](https://nodejs.org/) - [Back-end App](https://github.com/eliasjunior/home-video-api)
 
 
 <!-- GETTING STARTED -->
@@ -117,7 +117,12 @@ NodeJs 10 or higher installed on the machine that will run the apps
     ```properties
     SERVER_HOST=YOUR_MACHINE_IP_ADDRESS
     SERVER_PROTOCOL=http
+    SERVER_PORT=8080
+    IMG_FOLDER_FALL_BACK=/Images
     VIDEO_PATH=Absolute videos path
+    MOVIES_DIR=Movies folder
+    SERIES_DIR=Series folder
+    VIDEO_PATH_LOCAL=Local path, for development
     IMG_FOLDER_FALL_BACK= leave it blank if you don't want the app to read video/images from another folder
     ```
 
@@ -125,8 +130,8 @@ NodeJs 10 or higher installed on the machine that will run the apps
 
 4. The folder structure must follow the structure bellow, images and subtitles at the same folder.
 
-    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/folder.png">
-            <img src="images/folder.png" alt="Logo"  width="300px" height="200px">
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/files-structure.png">
+            <img src="images/files-structure.png" alt="Logo"  width="300px" height="200px">
     </a>
 
 
@@ -149,6 +154,7 @@ NodeJs 10 or higher installed on the machine that will run the apps
 2. Edit .env with your configuration   
     ```properties
     REACT_APP_SERVER_HOST=YOUR_SERVER_IP_ADDRESS
+    REACT_APP_SERVER_PROTOCOL=http
     ```
 
 3. More details of the configuration you can find in `src/config.js`  
