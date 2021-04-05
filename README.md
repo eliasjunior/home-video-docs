@@ -32,6 +32,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#technical-overview">Technical overview</a></li>
+    <li><a href="#license">License</a></li>
   </ol>
 </details>
 
@@ -47,37 +49,7 @@
 
 </br>
 
-Mobile 
 
-<p align="center">
-    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/home.png">
-        <img src="images/home.png" alt="Logo" width="200px" height="350px">
-    </a>
-    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/list.png">
-        <img src="images/list.png" alt="Logo" width="200px" height="350px">
-    </a>
-    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/list-search.png">
-        <img src="images/list-search.png" alt="Logo" width="200px" height="350px">
-    </a>
-</p>
-<p align="center">
-    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/player.png">
-        <img src="images/player.png" alt="Logo" width="736px" height="414px">
-    </a>
-</p>
-
-Desktop
-<p align="center">
-    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop.png">
-        <img src="images/desktop.png" alt="Logo" width="100%" height="100%">
-    </a>
-    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list.png">
-        <img src="images/desktop-list.png" alt="list"  width="100%" height="100%">
-    </a>
-    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list-search.png">
-        <img src="images/desktop-search.png" alt="list" width="100%" height="100%">
-    </a>
-</p>
 
 Probably there are many great apps to stream video out there, but I wanted to learn a bit about video streaming and was curious on how the pieces come together.
 
@@ -173,8 +145,41 @@ NodeJs 10 or higher installed on the machine that will run the apps
     ```sh
       npm start
     ```
+## Usage
 
+Mobile 
+
+<p align="center">
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/home.png">
+        <img src="images/home.png" alt="Logo" width="200px" height="350px">
+    </a>
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/list.png">
+        <img src="images/list.png" alt="Logo" width="200px" height="350px">
+    </a>
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/list-search.png">
+        <img src="images/list-search.png" alt="Logo" width="200px" height="350px">
+    </a>
+</p>
+<p align="center">
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/player.png">
+        <img src="images/player.png" alt="Logo" width="736px" height="414px">
+    </a>
+</p>
+
+Desktop
+<p align="center">
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop.png">
+        <img src="images/desktop.png" alt="Logo" width="100%" height="100%">
+    </a>
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list.png">
+        <img src="images/desktop-list.png" alt="list"  width="100%" height="100%">
+    </a>
+    <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/desktop-list-search.png">
+        <img src="images/desktop-search.png" alt="list" width="100%" height="100%">
+    </a>
+</p>
 <!-- Technical -->
+
 ## Technical overview
 
 <li><a href="https://github.com/eliasjunior/home-video" target="_blank">React App</a></li>
