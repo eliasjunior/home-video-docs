@@ -100,7 +100,7 @@ NodeJs 10 or higher installed on the machine that will run the apps
 
 3. More details of the configuration you can find in `src/config.js`  
 
-4. The folder structure must follow the structure bellow, images and subtitles at the same folder.
+4. The folder's structure must follow the structure below, images and subtitles at the same folder.
 
     <a href="https://github.com/eliasjunior/home-video-docs/blob/main/images/files-structure.png">
             <img src="images/files-structure.png" alt="Logo"  width="300px" height="200px">
