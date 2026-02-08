@@ -54,6 +54,7 @@
 Home Video is a hobby project built to better understand the fundamentals of browser-based video streaming and full-stack JavaScript development.
 
 The goal was not to build a production media server, but to explore how the core pieces fit together:
+
 	•	Serving video files from a local machine
 	•	Streaming media through a Node.js backend
 	•	Building a responsive UI with React
