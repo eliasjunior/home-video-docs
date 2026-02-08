@@ -8,7 +8,8 @@
   <h3 align="center">Home Video</h3>
 
   <p align="center">
-    It's a web application to play videos on a browser, it's easy to install and setup, access the videos in the phone, computer or anything else, you just need a browser.
+  Home Video is a small self-hosted web app for streaming videos from your own computer through the browser.
+  It was built as a learning project to explore how video streaming, file organization, and a simple full-stack React + Node.js setup work together.
     <br />
     <br />
   </p>
@@ -50,15 +51,15 @@
 </br>
 
 
+Home Video is a hobby project built to better understand the fundamentals of browser-based video streaming and full-stack JavaScript development.
 
-Probably there are many great apps to stream video out there, but I wanted to learn a bit about video streaming and was curious on how the pieces come together.
+The goal was not to build a production media server, but to explore how the core pieces fit together:
+	•	Serving video files from a local machine
+	•	Streaming media through a Node.js backend
+	•	Building a responsive UI with React
+	•	Organizing a simple media library structure
 
-Here's what motivated me:
-* Build something that I enjoy doing so.
-* Apply good code practices because I wanted flexibility to change and evolve the app over time as the app grows.
-* Play with React and Node.
-* I have a bunch of videos and photos in my hard drive and I was curious to how hard would be to build something to easily access it.
-
+The app makes it possible to browse and play personal video files from any device on the local network using only a browser.
 
 ### Built With
 * [React](https://reactjs.org/) - [Front-end App](https://github.com/eliasjunior/home-video)
