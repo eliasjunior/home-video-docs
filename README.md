@@ -187,23 +187,23 @@ Desktop
 
 ### Frameworks and Libs
 
-React
+Front-End (React)
 
-* Positive personal experience.
-* Instability
-* It embraces reusability, testability and Javascript native features instead of adding a api layer.
-
-CSS
-
-* No CSS libraries
-* BEM for css standards
-* Mainly for layouts I used Flexbox
+The front-end is a small React application focused on simplicity and responsiveness.
+	•	Component-based structure for reusability
+	•	Responsive layout for both mobile and desktop
+	•	Basic search and browsing experience
+	•	Styling written with plain CSS using BEM methodology
+	•	Flexbox used for layout structure
+	
 
 <li><a href="https://github.com/eliasjunior/home-video" target="_blank">Server App</a></li>
 
-* Develop something quickly.
-* Javascript experience
-* Full stack javascript
+The back-end is a lightweight Node.js server responsible for discovering media files and streaming them to the browser.
+	•	REST API for listing available media
+	•	Basic HTTP video streaming support
+	•	File-system based media organization (movies, series, images, subtitles)
+	•	Environment-based configuration for flexible local setups
 
 <!-- LICENSE -->
 ## License
